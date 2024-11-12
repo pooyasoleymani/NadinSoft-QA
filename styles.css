@@ -1,0 +1,79 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f0f0;
+}
+
+header {
+    background-color: #5422df;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+.profile {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    background-color: white;
+    margin: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(14, 0, 0, 0.1);
+}
+
+.profile img {
+    border-radius: 50%;
+    margin-right: 20px;
+}
+
+.description {
+    max-width: 500px;
+}
+
+.description h2, .description h3 {
+    margin-top: 0;
+}
+
+.description ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.description ul li {
+    background-color: #e7ebf3;
+    margin: 5px 0;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+footer {
+    background-color: #5732bd;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+.contact-info {
+    list-style-type: none;
+    padding: 0;
+}
+
+.contact-info li {
+    margin: 10px 0;
+}
+
+.contact-info a {
+    color: white;
+    text-decoration: none;
+}
+
+.contact-info a:hover{
+    text-decoration:underline;
+    color: aqua;
+}
+span:hover {
+    text-decoration: underline;
+    color: aqua;
+}
