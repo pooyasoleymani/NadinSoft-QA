@@ -49,6 +49,10 @@ header {
 }
 
 footer {
+    display: flex;
+    flex-direction: column;
+    justify-content:space-between;
+    align-items: center;
     background-color: #5732bd;
     color: white;
     padding: 20px;
@@ -56,6 +60,7 @@ footer {
 }
 
 .contact-info {
+    font-size: xx-small;
     list-style-type: none;
     padding: 0;
 }
@@ -69,11 +74,55 @@ footer {
     text-decoration: none;
 }
 
-.contact-info a:hover{
-    text-decoration:underline;
+.contact-info a:hover {
+    text-decoration: underline;
     color: aqua;
 }
+
 span:hover {
     text-decoration: underline;
     color: aqua;
+}
+
+form { 
+    display: flex;
+    flex-direction: column;
+    padding: 2px;
+    border: 1px #ad9bdf solid;
+    border-radius: 2px; 
+    box-shadow: 1px 5px 5px 5px rgb(1, 20, 82);
+    }
+form label {
+    margin-bottom: 5px;
+    font-weight: bold;
+     } 
+
+form input, form textarea { 
+    margin-bottom: 15px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px; font-size: 14px;
+    } 
+form input:focus, form textarea:focus {
+    border-color: #5422df;
+    outline: none;
+    box-shadow: 0 0 5px rgba(84, 34, 223, 0.5);
+}
+
+form button {
+    padding: 10px;
+     background-color: #099c35; 
+     color: white; border: none; 
+     border-radius: 5px; cursor: pointer; 
+     font-size: 16px;
+    } 
+form button:hover {
+    background-color: #43319a;
+}
+
+legend {
+    font-size: x-large;
+    padding: 10px;
+    margin: 5px;
+    text-decoration: underline;
 }
